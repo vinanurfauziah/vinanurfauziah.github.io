@@ -1,0 +1,57 @@
+/* Home */
+#home{
+    height: 820px;
+}
+.main .headings{
+    font-size: 30px;
+}
+.main .lead{
+    font-size: 18px;
+}
+/* About */
+#about .headings{
+    font-size: 30px;
+}
+#pic rounded-img{
+    width: 200px;
+    height: 175px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+#intro h2{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 30px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+/* Portfolio */
+#portfolio .headings{
+    font-size: 30px;
+}
+/*Services*/
+#services .headings{
+    font-size: 30px;
+}
+/*Contact*/
+#contact .headings{
+    font-size: 30px;
+}
+#contact .title {
+    font-size: 25px;
+}
+#infokontak ul li icon{
+    align-items: center;
+    padding-right: 5px;
+    padding-left: 50px;
+}
+.input{
+    width:80%;
+}
+#msg{
+    width: 70%;
+}
+#send{
+    width: 70px;
+}
