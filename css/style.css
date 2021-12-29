@@ -1,246 +1,240 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 /*navbar*/
-.navbar{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: sticky;
-    top:0;
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
 }
-.navbar ul{
-    display: flex;
-    list-style:none;
-    margin: 20px 0px;
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
 }
 
-.navbar ul li{
-    font-family: century;
-    font-size: 1.1rem;
-    font-weight:bold;
+.navbar ul li {
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
-.navbar ul li a{
-    text-decoration: none;
-    color:white;
-    padding: 8px 25px;
-    transition: all .5s ease;
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all 0.5s ease;
 }
-.navbar ul li a:hover{
-    background-color: white;
-    color:black;
-    box-shadow: 0 0 10px white;
+.navbar ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
 }
 /*Home/Beranda Section*/
-#home{
-    display:flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 840px;
-    justify-content:center;
-    align-items:center;
-    color:white;
+#home {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
-.p2{
-    background-color: rgba(222, 184, 135, 1 );
+.p2 {
+  background-color: rgba(222, 184, 135, 1);
 }
-#home::before{
-    content:"";
-    position:absolute;
-    top: 0;
-    right:0;
-    background: url('img5.jpg') no-repeat center center/cover;
-    height:900px;
-    width:100%;
-    z-index: -1;
-    opacity:.8;
+#home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url('img5.jpg') no-repeat center center/cover;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
 }
-.main{
-    display:flex;
-    flex-direction:column;
-    /*border: 1px solid white;*/
-    align-items: center;
-    position:absolute;
-    top:30%;
-    right:10px;
+.main {
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid white;*/
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  right: 10px;
 }
-.headings{
-    font-family:century;
-    font-size: 3rem;
-    text-align:center;
-    margin:40px 0px;
-    padding-top: 50px;
+.headings {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+  padding-top: 50px;
 }
-.main .lead{
-    font-size: 20px;
-    padding-bottom: 55px;
-    color: white;
+.main .lead {
+  font-size: 20px;
+  padding-bottom: 55px;
+  color: white;
 }
 /* About Profil Pribadi Section*/
-#about{
-    display: flex;
-    flex-direction: column;
-    box-sizing:border-box;
+#about {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
-#pic{
-    display:flex;
+#pic {
+  display: flex;
 }
-#pic img{
-    width: 400px;
-    height:400px;
-    margin-right: 50px;
-    margin-left: 70px;
-    border-radius: 50%;
+#pic img {
+  width: 400px;
+  height: 400px;
+  margin-right: 50px;
+  margin-left: 70px;
+  border-radius: 50%;
 }
-#intro{
-    display:flex;
-    flex-direction: column;
-    text-align: justify;
-    padding: 10px;
-    margin-right: 50px;
-    margin-left: 20px;
+#intro {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+  margin-right: 50px;
+  margin-left: 20px;
 }
-#intro h2{
-    font-size: 2rem;
-    margin-top: 150px;
-    margin-bottom: 20px;
+#intro h2 {
+  font-size: 2rem;
+  margin-top: 150px;
+  margin-bottom: 20px;
 }
 /*Pengalaman Section*/
-#portfolio{
-    display:flex;
-    flex-direction: column;
-    background-color: rgba(222, 184, 135, 1 );
-    color: black;
-    align-items: center;
-    padding: 0px;
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(222, 184, 135, 1);
+  color: black;
+  align-items: center;
+  padding: 0px;
 }
-.row .headings{
-    font-size: 30px;
+.row .headings {
+  font-size: 30px;
 }
-.row .box p{
-    font-size: 20px;
+.row .box p {
+  font-size: 20px;
 }
 /*Pendidikan Section*/
-#services{
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
+#services {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
 }
-.row{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    box-sizing: border-box;
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
-.box{
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    height: 450px;
-    border: 1px solid black;
-    margin: 10px;
-    align-items: center;
-    text-align: justify;
-    padding: 10px;
-    border-radius: 15px;
-    background: linear-gradient(to top, rgba(222, 184, 135, 1 ) 50%, white 50%);
-    background-size: 100% 200%;
-    transition: all .8s;
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 15px;
+  background: linear-gradient(to top, rgba(222, 184, 135, 1) 50%, white 50%);
+  background-size: 100% 200%;
+  transition: all 0.8s;
 }
-.box:hover{
-    background-position: left bottom;
-    color: white;
-    border: none;
-    box-shadow: 0 0 20px rgba(222, 184, 135, 1 );
+.box:hover {
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px rgba(222, 184, 135, 1);
 }
-.box img{
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    padding: 10px;
+.box img {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  padding: 10px;
 }
- .box p{
-    font-size: 30px;
-    margin-top: 35px;
+.box p {
+  font-size: 30px;
+  margin-top: 35px;
 }
 /* Kontak Section*/
-#contact{
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    background-color: rgba(222, 184, 135, 1 );
-    color: black;
-    padding: 0px;
+#contact {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgba(222, 184, 135, 1);
+  color: black;
+  padding-bottom: 50px;
 }
-.title{
-    text-align: center;
-    font-size: 40px;
-    padding-top: 30px;
-    align-items: center;
-    color:white;
+#contact {
+  text-align: center;
+}
+.title {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  color: white;
 }
 
-.infokontak ul li .icon{
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-left: 570px;
-    display: inline-block;
-    width: 50px;
-    font-size: 22px;
-    color:black;
+.infokontak li span {
+  width: 50px;
+  font-size: 22px;
+  color: black;
+  text-align: center;
 }
-.infokontak ul li .text{
-    color:white;
-    font-size: 20px;
-    padding-right: 10px;
-    padding-left:10px;
-    align-items: center;
+form {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 100px 0px;
 }
-.form{
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    align-items: center;
-    margin: 100px 0px;
+.input {
+  padding: 12px;
+  margin: 15px;
+  width: 30%;
+  border: none;
+  outline: none;
 }
-.input{
-    padding: 12px;
-    margin: 15px;
-    width: 30%;
-    border: none;
-    outline: none;
+#msg {
+  width: 20%;
+  padding: 10px;
+  margin: 15px;
+  border: none;
+  outline: none;
 }
-#msg{
-    width: 20%;
-    padding: 10px;
-    margin: 15px;
-    border: none;
-    outline: none;
+#send {
+  padding: 10px;
+  width: 10%;
+  margin: 40px;
+  border: none;
+  outline: none;
 }
-#send{
-    padding: 10px;
-    width: 10%;
-    margin: 40px;
-    border: none;
-    outline: none;
+#send:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px white;
 }
-#send:hover{
-    cursor: pointer;
-    box-shadow: 0 0 10px white;
-}
-.p1{
-background-color: rgba(222, 184, 135, 1 );
+.p1 {
+  background-color: rgba(222, 184, 135, 1);
 }
 /* Footer */
-.footer{
-    text-align: center;
-    padding-top:100px;
-    padding-bottom: 120px;
-    background-color: white;
+.footer {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  background-color: white;
 }
